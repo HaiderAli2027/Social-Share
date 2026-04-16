@@ -24,8 +24,12 @@ SECRET_KEY = 'django-insecure-=zvp=2@-(6*-_9s$d7z0+h)sm0-xl@)!z1_d@wkftqdq5&$zlp
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
 ALLOWED_HOSTS = []
+
+if DEBUG:
+    ALLOWED_HOSTS = [
+    '*',
+]
 
 
 # Application definition
@@ -37,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Posts',
+    'Scheduler',
     'allauth',
     'allauth.account',
 
@@ -117,7 +123,7 @@ AUTHENTICATION_BACKENDS = [
 #         ]
 #     }
 # }
-
+SOCIALACCOUNT_STORE_TOKENS = True
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
 
