@@ -1,18 +1,4 @@
-# Social Share Scheduler - Project Documentation
-
-## Table of Contents
-
-1. [Project Overview](#project-overview)
-2. [Current Architecture](#current-architecture)
-3. [How It Works](#how-it-works)
-4. [Database Schema](#database-schema)
-5. [OAuth Integration](#oauth-integration)
-6. [Inngest Workflow](#inngest-workflow)
-7. [API Endpoints](#api-endpoints)
-8. [Future Roadmap](#future-roadmap)
-9. [Troubleshooting](#troubleshooting)
-
----
+# Social Share Scheduler
 
 ## Project Overview
 
