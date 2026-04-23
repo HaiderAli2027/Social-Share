@@ -14,17 +14,15 @@
 
 **Tech Stack**:
 
-- **Backend**: Django 6.0.4
+- **Backend**: Django
 - **Authentication**: Django-Allauth with OAuth
 - **Job Scheduler**: Inngest (serverless workflows)
-- **Database**: SQLite (development)
-- **Python Version**: 3.12
+- **Database**: SQLite
 
 **Status**: MVP (Minimum Viable Product) completed for LinkedIn
 
 ---
 
-## Current Architecture
 
 ### **Project Structure**
 
